@@ -675,7 +675,7 @@ geolocation.setTracking(true);
 var geocoder = new Geocoder('nominatim', {
   provider: 'osm',
   lang: 'en-US',
-  placeholder: 'Search for ...',
+  placeholder: 'Buscar ...',
   limit: 5,
   keepOpen: true
 });
